@@ -1,0 +1,83 @@
+<!--<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">-->
+<!--  <a class="navbar-brand" href="#">MEAN Auth App</a>-->
+<!--  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">-->
+<!--    <span class="navbar-toggler-icon"></span>-->
+<!--  </button>-->
+
+<!--  <div class="collapse navbar-collapse" id="navbarsExampleDefault">-->
+<!--    <ul class="navbar-nav mr-auto">-->
+<!--      <li class="nav-item" [routerLinkActive]="['active']" [routerLinkActiveOptions] = "{exact:true}">-->
+<!--        <a class="nav-link" [routerLink]="['/']">Home <span></span></a>-->
+<!--      </li>-->
+<!--    </ul>-->
+<!--    <ul class="navbar-nav ml-auto">-->
+<!--&lt;!&ndash;      <li class="nav-item" *ngIf="authService.loggedIn()" [routerLinkActive]="['active']" [routerLinkActiveOptions] = "{exact:true}">&ndash;&gt;-->
+<!--&lt;!&ndash;        <a class="nav-link" [routerLink]="['/dashboard']">Dashboard </a>&ndash;&gt;-->
+<!--&lt;!&ndash;      </li>&ndash;&gt;-->
+<!--&lt;!&ndash;      <li class="nav-item" *ngIf="authService.loggedIn()" [routerLinkActive]="['active']" [routerLinkActiveOptions] = "{exact:true}">&ndash;&gt;-->
+<!--&lt;!&ndash;        <a class="nav-link" [routerLink]="['/profile']">Profile </a>&ndash;&gt;-->
+<!--&lt;!&ndash;      </li>&ndash;&gt;-->
+<!--      <li class="nav-item"  [routerLinkActive]="['active']" [routerLinkActiveOptions] = "{exact:true}">-->
+<!--        <a class="nav-link" [routerLink]="['/login']">Login </a>-->
+<!--      </li>-->
+<!--      <li class="nav-item"  [routerLinkActive]="['active']" [routerLinkActiveOptions] = "{exact:true}">-->
+<!--        <a class="nav-link" [routerLink]="['/register']">Register</a>-->
+<!--      </li>-->
+<!--&lt;!&ndash;      <li class="nav-item" *ngIf="authService.loggedIn()"><a class="nav-link" (click)="onLogoutClick()" href="#">Logout</a>&ndash;&gt;-->
+<!--&lt;!&ndash;      </li>&ndash;&gt;-->
+<!--    </ul>-->
+<!--  </div>-->
+<!--</nav>-->
+
+<nav class="navbar navbar-expand-md navbar-dark bg-primary fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="index.html"
+    ><i class="fas fa-laptop-code"></i> DevCamper</a
+    >
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarSupportedContent"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            id="navbarDropdown"
+            role="button"
+            data-toggle="dropdown"
+          >
+            <i class="fas fa-user"></i> Account
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="manage-bootcamp.html"
+            >Manage Bootcamp</a
+            >
+            <a class="dropdown-item" href="manage-reviews.html"
+            >Manage Reviews</a
+            >
+            <a class="dropdown-item" href="manage-account.html"
+            >Manage Account</a
+            >
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="login.html"
+            ><i class="fas fa-sign-out-alt"></i> Logout</a
+            >
+          </div>
+        </li>
+        <li class="nav-item d-none d-sm-block">
+          <a class="nav-link" href="#">|</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="bootcamps.html">Browse Bootcamps</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
